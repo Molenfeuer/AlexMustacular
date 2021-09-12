@@ -1,7 +1,7 @@
 {
   "Name": "Alex Mus-tacular",
   "Author": "Nordmole",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Make Alex appearance match his workout",
   "UniqueID": "Nordmole.AlexMustacular",
   "UpdateKeys": [ "Nexus:9565" ],
