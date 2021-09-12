@@ -2,7 +2,7 @@
   "Format": "1.23.0",
   "Changes": [
     {
-      "Action": "Load",
+      "Action": "EditImage",
       "Target": "Characters/Alex",
       "FromFile": "assets/alex_muscular.png"
     }
