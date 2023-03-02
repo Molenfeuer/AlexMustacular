@@ -29,4 +29,4 @@ Also, huge thanks to [Poltergeist](https://www.nexusmods.com/stardewvalley/users
 
 ## Other
 
-This is not related to this mod, but heres a little [YouTube video](https://youtu.be/Yi5_fSv7qXk) I recommend you. And [this is the YouTube video](https://youtu.be/1SG5A3PYaUs) I recommended before
+This is not related to this mod, but here’s a little [YouTube video](https://youtu.be/Yi5_fSv7qXk) I would recommend you watch. And [this is the YouTube video](https://youtu.be/1SG5A3PYaUs) I recommended before.
