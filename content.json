@@ -3,7 +3,8 @@
   "ConfigSchema": {
     "OutfitMode": {
       "AllowValues": "seasonal, spring, summer, fall, winter",
-      "Default": "seasonal"
+      "Default": "seasonal",
+      "Section": "appearance"
     }
   },
   "DynamicTokens": [

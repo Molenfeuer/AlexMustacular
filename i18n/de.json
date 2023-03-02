@@ -1,0 +1,10 @@
+{
+  "config.section.appearance.name": "Aussehen",
+  "config.OutfitMode.name": "Kleidungsstil",
+  "config.OutfitMode.description" : "Wenn etwas anderes als *Abhängig von der Jahreszeit* gewählt ist, so wird für alle Jahreszeiten die ausgewählte Kleidung erzwungen. Wird z. B. Winter ausgewählt, so wird Alex auch im Sommer seine Wintersachen tragen. Der Kleidungsstil für Herbst ist gleich dem Stardew Valley Standard. Um die Saisonelle-Anpassung zu deaktivieren, sollte also Herbst gewählt werden!",
+  "config.OutfitMode.values.seasonal": "Abhängig von der Jahreszeit",
+  "config.OutfitMode.values.spring": "Frühling",
+  "config.OutfitMode.values.summer": "Sommer",
+  "config.OutfitMode.values.fall": "Herbst (Vanilla)",
+  "config.OutfitMode.values.winter": "Winter"
+}

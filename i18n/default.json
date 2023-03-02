@@ -1,0 +1,10 @@
+{
+  "config.section.appearance.name": "Appearance",
+  "config.OutfitMode.name": "Outfit",
+  "config.OutfitMode.description" : "If an entry other than *Depending on season* is selected, Alex will always wear the outfit of the specified season. For example, if you select winter, he will wear his sweater and winter jacket in summer as well. The outfit for fall is the standard Stardew Valley style. So, to turn off the seasonal changes in clothing, you must choose fall.",
+  "config.OutfitMode.values.seasonal": "Depending on season",
+  "config.OutfitMode.values.spring": "Spring",
+  "config.OutfitMode.values.summer": "Summer",
+  "config.OutfitMode.values.fall": "Fall (Vanilla)",
+  "config.OutfitMode.values.winter": "Winter"
+}
