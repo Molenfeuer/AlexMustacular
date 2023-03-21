@@ -1,0 +1,10 @@
+{
+  "config.section.appearance.name": "Aparência",
+  "config.OutfitMode.name": "Estilo de vestuário",
+  "config.OutfitMode.description": "Se for escolhida outra opção que Dependente da época do ano , a roupa escolhida é esforçada para todas as épocas do ano. Se por exemplo for escolhido inverno, Alex tambem irá vestir no verão a roupa de inverno. O estilo de vestuário para outono é igual a norma de Stardew Valley. Para desativar a acomodação sazonal, será necessário escolher outono!",
+  "config.OutfitMode.values.seasonal": "Dependente da época do ano",
+  "config.OutfitMode.values.spring": "Primavera",
+  "config.OutfitMode.values.summer": "Verão",
+  "config.OutfitMode.values.fall": "Outono (Vanilla)",
+  "config.OutfitMode.values.winter": "Inverno"
+}
