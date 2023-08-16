@@ -1,7 +1,7 @@
 {
   "Name": "Alex Mus-tacular",
   "Author": "Nordmole",
-  "Version": "2.1.0",
+  "Version": "2.1.1",
   "Description": "Make Alex appearance match his workout",
   "UniqueID": "Nordmole.AlexMustacular",
   "UpdateKeys": [ "Nexus:9565" ],
@@ -15,6 +15,14 @@
     },
     {
       "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "AnataseTV.AnasTonedDownSprites",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Kxgarashii.YandereAlexPortrait",
       "IsRequired": false
     }
   ]
