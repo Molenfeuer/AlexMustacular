@@ -16,6 +16,14 @@
     {
       "UniqueID": "Poltergeister.SeasonalCuteCharacters",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "AnataseTV.AnasTonedDownSprites",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Kxgarashii.YandereAlexPortrait",
+      "IsRequired": false
     }
   ]
 }
