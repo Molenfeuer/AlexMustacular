@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+    "Action": "Include",
+    "FromFile": "assets/character/festival/wedding/wedding.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/character/festival/{{Festival}}/{{Festival}}.json",
+      "When": {
+        "HasFile:{{FromFile}}": "true",
+        "LocationName": "Temp"
+      },
+      "Update": "OnLocationChange"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/festival/flower dance/flower dance.png",
+      "ToArea": { "X": 0, "Y": 352, "Width": 64, "Height": 32 }
+    }
+  ]
+}

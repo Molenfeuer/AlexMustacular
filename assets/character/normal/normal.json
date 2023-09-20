@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/character/normal/everyday/everyday.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/character/normal/sleep/sleep.json"
+    }
+  ]
+}

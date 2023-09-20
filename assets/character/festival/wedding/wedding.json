@@ -1,0 +1,10 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/festival/wedding/wedding.png",
+      "ToArea": { "X": 0, "Y": 384, "Width": 48, "Height": 32 }
+    }
+  ]
+}
