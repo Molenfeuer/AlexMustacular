@@ -1,9 +1,9 @@
 {
   "Name": "Alex Mus-tacular",
-  "Author": "Nordmole",
+  "Author": "Molenfeuer",
   "Version": "2.1.1",
   "Description": "Make Alex appearance match his workout",
-  "UniqueID": "Nordmole.AlexMustacular",
+  "UniqueID": "Molenfeuer.AlexMustacular",
   "UpdateKeys": [ "Nexus:9565" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
