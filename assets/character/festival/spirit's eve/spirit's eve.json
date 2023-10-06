@@ -1,0 +1,10 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/festival/spirit's eve/spirit's eve.png",
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 }
+    }
+  ]
+}
