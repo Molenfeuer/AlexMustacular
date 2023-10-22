@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/outfit/normal_{{OutfitType}}.png",
+      "PatchMode": "Overlay"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/outfit/normal_winter_outdoor.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "OutfitType": "winter",
+        "IsOutdoors": true
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/character/outfit/festival_{{Festival}}.png",
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": "true",
+        "LocationName": "Temp"
+      },
+      "Update": "OnLocationChange"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "Changes": [
-    {
-      "Action": "EditImage",
-      "Target": "Characters/Alex_Beach",
-      "FromFile": "assets/character/beach/beach.png"
-    }
-  ]
-}

@@ -2,15 +2,11 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "assets/character/normal/normal.json"
+      "FromFile": "assets/character/body/body.json"
     },
     {
       "Action": "Include",
-      "FromFile": "assets/character/beach/beach.json"
-    },
-    {
-      "Action": "Include",
-      "FromFile": "assets/character/festival/festival.json"
+      "FromFile": "assets/character/outfit/outfit.json"
     }
   ]
 }
