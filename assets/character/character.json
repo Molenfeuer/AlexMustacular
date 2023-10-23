@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/character/body/body.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/character/outfit/outfit.json"
+    }
+  ]
+}

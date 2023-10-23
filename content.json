@@ -1,9 +1,18 @@
 {
-  "Format": "1.28.0",
+  "Format": "1.29.0",
   "ConfigSchema": {
+    "Enabled": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
     "OutfitMode": {
       "AllowValues": "seasonal, spring, summer, fall, winter",
       "Default": "seasonal",
+      "Section": "appearance"
+    },
+    "ExtraFestivalOutfits": {
+      "AllowValues": "true, false",
+      "Default": true,
       "Section": "appearance"
     }
   },
@@ -21,42 +30,19 @@
       "When": {
         "query: '{{OutfitMode}}' <> 'seasonal'": true
       }
+    },
+    {
+      "Name": "Festival",
+      "Value": "{{Lowercase:{{DayEvent}}}}"
     }
   ],
   "Changes": [
     {
-      "Action": "EditImage",
-      "Target": "Characters/Alex",
-      "FromFile": "assets/alex_body.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/Alex",
-      "FromFile": "assets/outfits/alex_outfit_{{OutfitType}}.png",
-      "PatchMode": "Overlay"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/Alex",
-      "FromFile": "assets/outfits/alex_outfit_generic.png",
-      "ToArea": { "X": 0, "Y": 352, "Width": 64, "Height": 64 },
-      "PatchMode": "Overlay"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/Alex",
-      "FromFile": "assets/accessoires/alex_accessoire_jacket.png",
-      "PatchMode": "Overlay",
+      "Action": "Include",
+      "FromFile": "assets/character/character.json",
       "When": {
-        "OutfitType": "winter",
-        "IsOutdoors": true
-      },
-      "Update": "OnLocationChange"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/Alex_Beach",
-      "FromFile": "assets/alex_body_beach.png"
+        "Enabled": true
+      }
     }
   ]
 }
