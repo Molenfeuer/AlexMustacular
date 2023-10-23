@@ -1,9 +1,18 @@
 {
   "Format": "1.28.0",
   "ConfigSchema": {
+    "Enabled": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
     "OutfitMode": {
       "AllowValues": "seasonal, spring, summer, fall, winter",
       "Default": "seasonal",
+      "Section": "appearance"
+    },
+    "ExtraFestivalOutfits": {
+      "AllowValues": "true, false",
+      "Default": true,
       "Section": "appearance"
     }
   },
@@ -30,7 +39,10 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "assets/character/character.json"
+      "FromFile": "assets/character/character.json",
+      "When": {
+        "Enabled": true
+      }
     }
   ]
 }

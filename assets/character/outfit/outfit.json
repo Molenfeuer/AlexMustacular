@@ -25,7 +25,8 @@
       "PatchMode": "Overlay",
       "When": {
         "HasFile:{{FromFile}}": "true",
-        "LocationName": "Temp"
+        "LocationName": "Temp",
+        "ExtraFestivalOutfits": true
       },
       "Update": "OnLocationChange"
     }
