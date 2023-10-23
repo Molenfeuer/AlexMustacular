@@ -3,7 +3,7 @@ Alex is by far the fittest person in Stardew Valley, but his body doesn't look l
 
 ## Install
 
-1. Download the newest version of this mod from [NexusMods](https://www.nexusmods.com/users/96969738?tab=user+files) or the GitHub [release page](https://github.com/Nordmole/AlexMustacular/releases)
+1. Download the newest version of this mod from [NexusMods](https://www.nexusmods.com/users/96969738?tab=user+files) or the GitHub [release page](https://github.com/Molenfeuer/AlexMustacular/releases)
 2. Extract the ZIP-File and put the folder into the mods folder of SMAPI (mostly located under "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods")
 
 ## Options
@@ -17,7 +17,7 @@ Alex is by far the fittest person in Stardew Valley, but his body doesn't look l
 
 ## Contribute
 
-If something doesn't work, or you miss a feature, feel free to open a new issue on the [GitHub Page of this mod](https://github.com/Nordmole/AlexMustacular/issues). I prefer the GitHub Page but if you really don't want to use it feel free to use the [Issue Page here on NexusMods](https://www.nexusmods.com/stardewvalley/mods/9565?tab=bugs).
+If something doesn't work, or you miss a feature, feel free to open a new issue on the [GitHub Page of this mod](https://github.com/Molenfeuer/AlexMustacular/issues). I prefer the GitHub Page but if you really don't want to use it feel free to use the [Issue Page here on NexusMods](https://www.nexusmods.com/stardewvalley/mods/9565?tab=bugs).
 
 ## Credits
 
