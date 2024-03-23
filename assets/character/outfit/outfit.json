@@ -2,13 +2,13 @@
   "Changes": [
     {
       "Action": "EditImage",
-      "Target": "Characters/Alex",
+      "Target": "Characters/Alex, Characters/Alex_Winter",
       "FromFile": "assets/character/outfit/normal_{{OutfitType}}.png",
       "PatchMode": "Overlay"
     },
     {
       "Action": "EditImage",
-      "Target": "Characters/Alex",
+      "Target": "Characters/Alex_Winter",
       "FromFile": "assets/character/outfit/normal_winter_outdoor.png",
       "PatchMode": "Overlay",
       "When": {
@@ -19,7 +19,7 @@
     },
     {
       "Action": "EditImage",
-      "Target": "Characters/Alex",
+      "Target": "Characters/Alex, Characters/Alex_Winter",
       "FromFile": "assets/character/outfit/festival_{{Festival}}.png",
       "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
       "PatchMode": "Overlay",
