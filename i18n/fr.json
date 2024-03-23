@@ -1,0 +1,14 @@
+{
+  "config.Enabled.name": "Activé",
+  "config.Enabled.description": "Activer ou désactiver le mod Alex Mus-tacular.",
+  "config.section.appearance.name": "Apparence",
+  "config.OutfitMode.name": "Tenue",
+  "config.OutfitMode.description" : "Si une option autre que *En fonction de la saison* est sélectionnée, Alex portera toujours la tenue de la saison spécifiée. Par exemple, si vous choisissez l'hiver, il portera son pull et sa veste d'hiver même en été. La tenue d'automne est le style standard de Stardew Valley. Ainsi, pour désactiver les changements saisonniers de vêtements, vous devez choisir l'automne.",
+  "config.OutfitMode.values.seasonal": "En fonction de la saison",
+  "config.OutfitMode.values.spring": "Printemps",
+  "config.OutfitMode.values.summer": "Été",
+  "config.OutfitMode.values.fall": "Automne (Vanilla)",
+  "config.OutfitMode.values.winter": "Hiver",
+  "config.ExtraFestivalOutfits.name": "Tenues de festival supplémentaires",
+  "config.ExtraFestivalOutfits.description": "Inclure des tenues de festival supplémentaires, par exemple, pour la Fête des Esprits."
+}
