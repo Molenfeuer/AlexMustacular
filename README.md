@@ -8,7 +8,9 @@ Alex is by far the fittest person in Stardew Valley, but his body doesn't look l
 
 ## Options
 
-- Currently, you can select a style for Alex’s clothes. You can choose a dynamic changing system for Alex’s clothes or force a fixed style that is used for all seasons
+- Select a style for Alex's clothes or choose automatic changes for each season (default)
+- Enable (default)/Disable extra outfits for festivals
+- Available languages: 🇬🇧 🇩🇪 🇵🇹 🇪🇸 🇹🇷 🇫🇷 
 
 ## Features
 
@@ -22,10 +24,11 @@ If something doesn't work, or you miss a feature, feel free to open a new issue 
 ## Credits
 
 - First of all thanks to [ConcernedApe](https://twitter.com/concernedape) for developing Stardew Valley and the Sprites my own Textures based on!
-- A big thanks to [CommanderWaddles](https://www.nexusmods.com/stardewvalley/users/64707721) for publishing the modification (NSFW) [... Alex Muscular Sprite](https://www.nexusmods.com/stardewvalley/mods/3388). I use his idea and sprites as base for my modification. The main difference between our mods (and the reason for me to develop this piece of code) is that my version is mostly SFW and compatible with the latest StardewValley Version. I give Alex a shirt and pants, add missing poses and improve his muscularity.
+- A big thanks to [CommanderWaddles](https://www.nexusmods.com/stardewvalley/users/64707721) for publishing the modification (NSFW) [... Alex Muscular Sprite](https://www.nexusmods.com/stardewvalley/mods/3388). I use his idea and sprites as base for my modification. The main difference between our mods (and the reason for me to develop this piece of code) is that my version is mostly SFW and compatible with the latest StardewValley Version. I give Alex a shirt and pants, add missing poses and improve his muscularity
 - Furthermore, a huuuuge thanks for [Pathoschild](https://www.nexusmods.com/stardewvalley/users/1552317) to develop [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400) and [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915). This modification uses both of these technologies to run!
-- Also, huge thanks to [Poltergeist](https://www.nexusmods.com/stardewvalley/users/2679113) for the mod [Seasonal Outfits](https://www.nexusmods.com/stardewvalley/mods/5450). I was strongly influenced by their outfits and adopted the rough style for my outfits. A direct copy was not possible due to a certain NPC, who found Gus’s protein powder stash.
+- Also, huge thanks to [Poltergeist](https://www.nexusmods.com/stardewvalley/users/2679113) for the mod [Seasonal Outfits](https://www.nexusmods.com/stardewvalley/mods/5450). I was strongly influenced by their outfits and adopted the rough style for my outfits. A direct copy was not possible due to a certain NPC, who found Gus’s protein powder stash
 - I am very happy that some people helped me with the translation to make the mod understandable for everyone. I would like to thank [zenychan](https://www.nexusmods.com/users/108249578) for the Turkish translation and A. B. for the Spanish and Portuguese translations!
+- Also a lovely *merci* to [mouahrara](https://www.nexusmods.com/stardewvalley/users/190812873) for the French translation!
 
 ## Other
 
