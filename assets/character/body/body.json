@@ -2,7 +2,7 @@
   "Changes": [
     {
       "Action": "EditImage",
-      "Target": "Characters/Alex",
+      "Target": "Characters/Alex, Characters/Alex_Winter",
       "FromFile": "assets/character/body/body.png"
     },
     {
