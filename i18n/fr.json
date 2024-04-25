@@ -9,6 +9,6 @@
   "config.OutfitMode.values.summer": "Été",
   "config.OutfitMode.values.fall": "Automne (Vanilla)",
   "config.OutfitMode.values.winter": "Hiver",
-  "config.ExtraFestivalOutfits.name": "Tenues de festival supplémentaires",
-  "config.ExtraFestivalOutfits.description": "Inclure des tenues de festival supplémentaires, par exemple, pour la Fête des Esprits."
+  "config.EnableExtraFestivalOutfits.name": "Tenues de festival supplémentaires",
+  "config.EnableExtraFestivalOutfits.description": "Inclure des tenues de festival supplémentaires, par exemple, pour la Fête des Esprits."
 }

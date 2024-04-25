@@ -10,7 +10,7 @@
       "Default": "seasonal",
       "Section": "appearance"
     },
-    "ExtraFestivalOutfits": {
+    "EnableExtraFestivalOutfits": {
       "AllowValues": "true, false",
       "Default": true,
       "Section": "appearance"
@@ -34,6 +34,19 @@
     {
       "Name": "Festival",
       "Value": "{{Lowercase:{{DayEvent}}}}"
+    },
+    {
+      "Name": "UseExtraFestivalOutfits",
+      "Value": false
+    },
+    {
+      "Name": "UseExtraFestivalOutfits",
+      "Value": true,
+      "When": {
+        "HasFile:assets/character/outfit/festival_{{Festival}}.png": "true",
+        "LocationName": "Temp",
+        "EnableExtraFestivalOutfits": true
+      }
     }
   ],
   "Changes": [

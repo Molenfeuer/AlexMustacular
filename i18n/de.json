@@ -9,6 +9,6 @@
   "config.OutfitMode.values.summer": "Sommer",
   "config.OutfitMode.values.fall": "Herbst (Vanilla)",
   "config.OutfitMode.values.winter": "Winter",
-  "config.ExtraFestivalOutfits.name": "Extra Festtagskleidung",
-  "config.ExtraFestivalOutfits.description": "Fügt zusätzliche Festtagskleidung für beispielsweise die Geisternacht hinzu."
+  "config.EnableExtraFestivalOutfits.name": "Extra Festtagskleidung",
+  "config.EnableExtraFestivalOutfits.description": "Fügt zusätzliche Festtagskleidung für beispielsweise die Geisternacht hinzu."
 }

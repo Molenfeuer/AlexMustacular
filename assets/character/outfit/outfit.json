@@ -4,7 +4,10 @@
       "Action": "EditImage",
       "Target": "Characters/Alex, Characters/Alex_Winter",
       "FromFile": "assets/character/outfit/normal_{{OutfitType}}.png",
-      "PatchMode": "Overlay"
+      "PatchMode": "Overlay",
+      "When": {
+        "UseExtraFestivalOutfits": false
+      }
     },
     {
       "Action": "EditImage",
@@ -13,7 +16,8 @@
       "PatchMode": "Overlay",
       "When": {
         "OutfitType": "winter",
-        "IsOutdoors": true
+        "IsOutdoors": true,
+        "UseExtraFestivalOutfits": false
       },
       "Update": "OnLocationChange"
     },
@@ -24,9 +28,7 @@
       "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
       "PatchMode": "Overlay",
       "When": {
-        "HasFile:{{FromFile}}": "true",
-        "LocationName": "Temp",
-        "ExtraFestivalOutfits": true
+        "UseExtraFestivalOutfits": true
       },
       "Update": "OnLocationChange"
     }
