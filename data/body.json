@@ -3,12 +3,12 @@
     {
       "Action": "EditImage",
       "Target": "Characters/Alex, Characters/Alex_Winter",
-      "FromFile": "assets/character/body/body.png"
+      "FromFile": "assets/character/body.png"
     },
     {
       "Action": "EditImage",
       "Target": "Characters/Alex_Beach",
-      "FromFile": "assets/character/body/body_beach.png"
+      "FromFile": "assets/character/body_beach.png"
     }
   ]
 }

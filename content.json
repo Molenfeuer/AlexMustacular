@@ -52,7 +52,14 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "assets/character/character.json",
+      "FromFile": "data/body.json",
+      "When": {
+        "Enabled": true
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/outfit.json",
       "When": {
         "Enabled": true
       }
