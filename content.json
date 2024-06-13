@@ -1,16 +1,16 @@
 {
   "Format": "2.0.0",
   "ConfigSchema": {
-    "Enabled": {
+    "EnabledSetting": {
       "AllowValues": "true, false",
       "Default": true
     },
-    "OutfitMode": {
+    "OutfitModeSetting": {
       "AllowValues": "seasonal, spring, summer, fall, winter",
       "Default": "seasonal",
       "Section": "appearance"
     },
-    "EnableExtraFestivalOutfits": {
+    "ExtraFestivalOutfitSetting": {
       "AllowValues": "true, false",
       "Default": true,
       "Section": "appearance"
@@ -21,32 +21,19 @@
       "Name": "OutfitType",
       "Value": "{{season}}",
       "When": {
-        "OutfitMode": "seasonal"
+        "OutfitModeSetting": "seasonal"
       }
     },
     {
       "Name": "OutfitType",
-      "Value": "{{OutfitMode}}",
+      "Value": "{{OutfitModeSetting}}",
       "When": {
-        "query: '{{OutfitMode}}' <> 'seasonal'": true
+        "query: '{{OutfitModeSetting}}' <> 'seasonal'": true
       }
     },
     {
       "Name": "Festival",
       "Value": "{{Lowercase:{{DayEvent}}}}"
-    },
-    {
-      "Name": "UseExtraFestivalOutfits",
-      "Value": false
-    },
-    {
-      "Name": "UseExtraFestivalOutfits",
-      "Value": true,
-      "When": {
-        "HasFile:assets/character/outfit/festival_{{Festival}}.png": "true",
-        "LocationName": "Temp",
-        "EnableExtraFestivalOutfits": true
-      }
     }
   ],
   "Changes": [
@@ -54,14 +41,22 @@
       "Action": "Include",
       "FromFile": "data/body.json",
       "When": {
-        "Enabled": true
+        "EnabledSetting": true
       }
     },
     {
       "Action": "Include",
       "FromFile": "data/outfit.json",
       "When": {
-        "Enabled": true
+        "EnabledSetting": true
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/outfit_festival.json",
+      "When": {
+        "EnabledSetting": true,
+        "ExtraFestivalOutfitSetting": true
       }
     }
   ]
