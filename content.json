@@ -11,8 +11,8 @@
       "Section": "appearance"
     },
     "ExtraFestivalOutfitSetting": {
-      "AllowValues": "true, false",
-      "Default": true,
+      "AllowValues": "disabled, enabled, auto",
+      "Default": "auto",
       "Section": "appearance"
     }
   },
@@ -33,6 +33,25 @@
       "Value": "{{season}}",
       "When": {
         "SeasonalOutfitsSetting": "auto",
+        "HasMod": "Poltergeister.SeasonalCuteCharacters"
+      }
+    },
+    {
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "false"
+    },
+    {
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "true",
+      "When": {
+        "ExtraFestivalOutfitSetting": "enabled"
+      }
+    },
+    {
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "true",
+      "When": {
+        "ExtraFestivalOutfitSetting": "auto",
         "HasMod": "Poltergeister.SeasonalCuteCharacters"
       }
     }
@@ -57,7 +76,7 @@
       "FromFile": "data/outfit_festival.json",
       "When": {
         "EnabledSetting": true,
-        "ExtraFestivalOutfitSetting": true
+        "ExtraFestivalOutfitEnabled": true
       }
     }
   ]
