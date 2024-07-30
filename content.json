@@ -5,9 +5,9 @@
       "AllowValues": "true, false",
       "Default": true
     },
-    "OutfitModeSetting": {
-      "AllowValues": "seasonal, spring, summer, fall, winter",
-      "Default": "seasonal",
+    "SeasonalOutfitsSetting": {
+      "AllowValues": "disabled, enabled, auto",
+      "Default": "auto",
       "Section": "appearance"
     },
     "ExtraFestivalOutfitSetting": {
@@ -19,16 +19,21 @@
   "DynamicTokens": [
     {
       "Name": "OutfitType",
+      "Value": "fall"
+    },
+    {
+      "Name": "OutfitType",
       "Value": "{{season}}",
       "When": {
-        "OutfitModeSetting": "seasonal"
+        "SeasonalOutfitsSetting": "enabled"
       }
     },
     {
       "Name": "OutfitType",
-      "Value": "{{OutfitModeSetting}}",
+      "Value": "{{season}}",
       "When": {
-        "query: '{{OutfitModeSetting}}' <> 'seasonal'": true
+        "SeasonalOutfitsSetting": "auto",
+        "HasMod": "Poltergeister.SeasonalCuteCharacters"
       }
     }
   ],
