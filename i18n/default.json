@@ -1,14 +1,15 @@
 {
-  "config.Enabled.name": "Enabled",
-  "config.Enabled.description": "Turn the mod Alex Mus-tacular on or off.",
   "config.section.appearance.name": "Appearance",
-  "config.OutfitMode.name": "Outfit",
-  "config.OutfitMode.description" : "If an entry other than *Depending on season* is selected, Alex will always wear the outfit of the specified season. For example, if you select winter, he will wear his sweater and winter jacket in summer as well. The outfit for fall is the standard Stardew Valley style. So, to turn off the seasonal changes in clothing, you must choose fall.",
-  "config.OutfitMode.values.seasonal": "Depending on season",
-  "config.OutfitMode.values.spring": "Spring",
-  "config.OutfitMode.values.summer": "Summer",
-  "config.OutfitMode.values.fall": "Fall (Vanilla)",
-  "config.OutfitMode.values.winter": "Winter",
-  "config.EnableExtraFestivalOutfits.name": "Extra festival outfits",
-  "config.EnableExtraFestivalOutfits.description": "Include additional festival outfits, for instance, for Spirit's Eve."
+  "config.EnabledSetting.name": "Enabled",
+  "config.EnabledSetting.description": "Turn the mod Alex Mus-tacular on or off.",
+  "config.SeasonalOutfitsSetting.name": "Seasonal Outfits",
+  "config.SeasonalOutfitsSetting.description": "Enabled: Change Alex's outfit by season.\n\nAuto (default): Like Enabled but only when \nSeasonal Outfits by Poltergeister is installed. Otherwise disabled.\n\nDisabled: Only shows Alex's vanilla outfit.",
+  "config.SeasonalOutfitsSetting.values.disabled": "Disabled",
+  "config.SeasonalOutfitsSetting.values.enabled": "Enabled",
+  "config.SeasonalOutfitsSetting.values.auto": "Auto",
+  "config.ExtraFestivalOutfitSetting.name": "Extra Festival Outfits",
+  "config.ExtraFestivalOutfitSetting.description": "Enabled: Include additional festival outfits i.e. for Spirit's Eve.\n\nAuto (default): Like Enabled but only when \nSeasonal Outfits by Poltergeister is installed. Otherwise disabled.\n\nDisabled: Disable this feature.",
+  "config.ExtraFestivalOutfitSetting.values.disabled": "Disabled",
+  "config.ExtraFestivalOutfitSetting.values.enabled": "Enabled",
+  "config.ExtraFestivalOutfitSetting.values.auto": "Auto"
 }
