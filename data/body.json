@@ -58,49 +58,49 @@
         },
         "{{ModId}}_AlexEggFest": {
           "Id": "{{ModId}}_AlexEggFest",
-          "Condition": "IS_EVENT festival_spring13, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_spring13",
           "Sprite": "Characters/Alex_EggF",
           "Precedence": -1000
         },
         "{{ModId}}_AlexFlowerDance": {
           "Id": "{{ModId}}_AlexFlowerDance",
-          "Condition": "IS_EVENT festival_spring24, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_spring24",
           "Sprite": "Characters/Alex_FlowerDance",
           "Precedence": -1000
         },
         "{{ModId}}_AlexLuau": {
           "Id": "{{ModId}}_AlexLuau",
-          "Condition": "IS_EVENT festival_summer11, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_summer11",
           "Sprite": "Characters/Alex_Luau",
           "Precedence": -1000
         },
         "{{ModId}}_AlexJellies": {
           "Id": "{{ModId}}_AlexJellies",
-          "Condition": "IS_EVENT festival_summer28, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_summer28",
           "Sprite": "Characters/Alex_Jellies",
           "Precedence": -1000
         },
         "{{ModId}}_AlexFair": {
           "Id": "{{ModId}}_AlexFair",
-          "Condition": "IS_EVENT festival_fall16, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_fall16",
           "Sprite": "Characters/Alex_Fair",
           "Precedence": -1000
         },
         "{{ModId}}_AlexSpirit": {
           "Id": "{{ModId}}_AlexSpirit",
-          "Condition": "IS_EVENT festival_fall27, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/Alex_SpiritsEve",
           "Precedence": -1000
         },
         "{{ModId}}_AlexIceFestival": {
           "Id": "{{ModId}}_AlexIceFestival",
-          "Condition": "IS_EVENT festival_winter8, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_winter8",
           "Sprite": "Characters/Alex_Winter_IceF",
           "Precedence": -1000
         },
         "{{ModId}}_AlexWinterStar": {
           "Id": "{{ModId}}_AlexWinterStar",
-          "Condition": "IS_EVENT festival_winter25, {{ExtraFestivalOutfitEnabled}}",
+          "Condition": "IS_EVENT festival_winter25",
           "Sprite": "Characters/Alex_Winter_WinterStar",
           "Precedence": -1000
         }
