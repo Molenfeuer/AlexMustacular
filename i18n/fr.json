@@ -1,14 +1,15 @@
 {
-  "config.Enabled.name": "Activé",
-  "config.Enabled.description": "Activer ou désactiver le mod Alex Mus-tacular.",
   "config.section.appearance.name": "Apparence",
-  "config.OutfitMode.name": "Tenue",
-  "config.OutfitMode.description" : "Si une option autre que *En fonction de la saison* est sélectionnée, Alex portera toujours la tenue de la saison spécifiée. Par exemple, si vous choisissez l'hiver, il portera son pull et sa veste d'hiver même en été. La tenue d'automne est le style standard de Stardew Valley. Ainsi, pour désactiver les changements saisonniers de vêtements, vous devez choisir l'automne.",
-  "config.OutfitMode.values.seasonal": "En fonction de la saison",
-  "config.OutfitMode.values.spring": "Printemps",
-  "config.OutfitMode.values.summer": "Été",
-  "config.OutfitMode.values.fall": "Automne (Vanilla)",
-  "config.OutfitMode.values.winter": "Hiver",
-  "config.EnableExtraFestivalOutfits.name": "Tenues de festival supplémentaires",
-  "config.EnableExtraFestivalOutfits.description": "Inclure des tenues de festival supplémentaires, par exemple, pour la Fête des Esprits."
+  "config.EnabledSetting.name": "Activé",
+  "config.EnabledSetting.description": "Activer ou désactiver le mod Alex Mus-tacular.",
+  "config.SeasonalOutfitsSetting.name": "Tenues saisonnières",
+  "config.SeasonalOutfitsSetting.description": "Activé : Change la tenue d'Alex en fonction de la saison.\n\nAuto (par défaut) : Activé mais seulement lorsque \nSeasonal Outfits de Poltergeister est installé. Sinon, désactivé.\n\nDésactivé : Affiche uniquement la tenue par défaut d'Alex.",
+  "config.SeasonalOutfitsSetting.values.disabled": "Désactivé",
+  "config.SeasonalOutfitsSetting.values.enabled": "Activé",
+  "config.SeasonalOutfitsSetting.values.auto": "Auto",
+  "config.ExtraFestivalOutfitSetting.name": "Tenues de festival supplémentaires",
+  "config.ExtraFestivalOutfitSetting.description": "Activé : Inclut des tenues supplémentaires pour les festivals, par exemple pour la Fête des Esprits.\n\nAuto (par défaut) : Activé mais seulement lorsque \nSeasonal Outfits de Poltergeister est installé. Sinon, désactivé.\n\nDésactivé : Désactive cette fonctionnalité.",
+  "config.ExtraFestivalOutfitSetting.values.disabled": "Désactivé",
+  "config.ExtraFestivalOutfitSetting.values.enabled": "Activé",
+  "config.ExtraFestivalOutfitSetting.values.auto": "Auto"
 }
