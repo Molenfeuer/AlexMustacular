@@ -1,10 +1,15 @@
 {
   "config.section.appearance.name": "Aparência",
-  "config.OutfitMode.name": "Estilo de vestuário",
-  "config.OutfitMode.description": "Se for escolhida outra opção que Dependente da época do ano , a roupa escolhida é esforçada para todas as épocas do ano. Se por exemplo for escolhido inverno, Alex tambem irá vestir no verão a roupa de inverno. O estilo de vestuário para outono é igual a norma de Stardew Valley. Para desativar a acomodação sazonal, será necessário escolher outono!",
-  "config.OutfitMode.values.seasonal": "Dependente da época do ano",
-  "config.OutfitMode.values.spring": "Primavera",
-  "config.OutfitMode.values.summer": "Verão",
-  "config.OutfitMode.values.fall": "Outono (Vanilla)",
-  "config.OutfitMode.values.winter": "Inverno"
+  "config.EnabledSetting.name": "Ativado",
+  "config.EnabledSetting.description": "Ativa ou desativa o mod Alex Mus-tacular.",
+  "config.SeasonalOutfitsSetting.name": "Trajes Sazonais",
+  "config.SeasonalOutfitsSetting.description": "Ativado: Altera os trajes de acordo com a estação.\n\nAutomático (padrão): Altera os trajes apenas caso o mod \n'Seasonal Outfits' de Poltergeister esteja instalado. Do contrário, os desativa.\n\nDesativado: exibe apenas o traje original de Alex.",
+  "config.SeasonalOutfitsSetting.values.disabled": "Desativado",
+  "config.SeasonalOutfitsSetting.values.enabled": "Ativado",
+  "config.SeasonalOutfitsSetting.values.auto": "Automático",
+  "config.ExtraFestivalOutfitSetting.name": "Trajes Extras de Festivais",
+  "config.ExtraFestivalOutfitSetting.description": "Ativado: inclui trajes adicionais de festivais.\n\nAutomático (padrão): Altera os trajes apenas caso o mod \n'Seasonal Outfits' de Poltergeister esteja instalado. Do contrário, os desativa.\n\nDesativado: desativa esta opção.",
+  "config.ExtraFestivalOutfitSetting.values.disabled": "Desativado",
+  "config.ExtraFestivalOutfitSetting.values.enabled": "Ativado",
+  "config.ExtraFestivalOutfitSetting.values.auto": "Automático"
 }

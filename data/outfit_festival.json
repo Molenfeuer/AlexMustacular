@@ -1,0 +1,76 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_EggF",
+      "FromFile": "assets/character/festival_egg_festival.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's egg festival outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_FlowerDance",
+      "FromFile": "assets/character/festival_flower_dance.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's flower dance outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Luau",
+      "FromFile": "assets/character/festival_luau.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's luau outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Jellies",
+      "FromFile": "assets/character/festival_moonlight_jellies.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's moonlight jellies outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Fair",
+      "FromFile": "assets/character/festival_fair.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's fair outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_SpiritsEve",
+      "FromFile": "assets/character/festival_spirits_eve.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's spirits eve outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Winter_IceF",
+      "FromFile": "assets/character/festival_festival_of_ice.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's festival of ice outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Winter_WinterStar",
+      "FromFile": "assets/character/festival_winter_star.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's winter star outfit"
+    }
+  ]
+}

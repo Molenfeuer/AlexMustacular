@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Spring, Characters/Alex_Summer, Characters/Alex_Fall, Characters/Alex_Winter_Indoor, Characters/Alex_Winter_Outdoor",
+      "FromFile": "assets/character/normal_{{OutfitType}}.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 416 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 416 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's normal outfits"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Winter_Outdoor",
+      "FromFile": "assets/character/normal_winter_outdoor.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 352 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 352 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's winter outdoor outfit"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_EggF, Characters/Alex_FlowerDance, Characters/Alex_Luau, Characters/Alex_Jellies, Characters/Alex_Fair, Characters/Alex_SpiritsEve, Characters/Alex_Winter_IceF, Characters/Alex_Winter_WinterStar",
+      "FromFile": "assets/character/normal_{{OutfitType}}.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "PatchMode": "Overlay",
+      "When": {
+        "ExtraFestivalOutfitEnabled": false
+      },
+      "LogName": "Edit Alex's extra festival outfit fallback"
+    }
+  ]
+}

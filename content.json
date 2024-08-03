@@ -1,47 +1,82 @@
 {
-  "Format": "2.0.0",
+  "Format": "2.3.0",
   "ConfigSchema": {
-    "Enabled": {
+    "EnabledSetting": {
       "AllowValues": "true, false",
       "Default": true
     },
-    "OutfitMode": {
-      "AllowValues": "seasonal, spring, summer, fall, winter",
-      "Default": "seasonal",
+    "SeasonalOutfitsSetting": {
+      "AllowValues": "disabled, enabled, auto",
+      "Default": "auto",
       "Section": "appearance"
     },
-    "ExtraFestivalOutfits": {
-      "AllowValues": "true, false",
-      "Default": true,
+    "ExtraFestivalOutfitSetting": {
+      "AllowValues": "disabled, enabled, auto",
+      "Default": "auto",
       "Section": "appearance"
     }
   },
   "DynamicTokens": [
     {
       "Name": "OutfitType",
+      "Value": "fall"
+    },
+    {
+      "Name": "OutfitType",
       "Value": "{{season}}",
       "When": {
-        "OutfitMode": "seasonal"
+        "SeasonalOutfitsSetting": "enabled"
       }
     },
     {
       "Name": "OutfitType",
-      "Value": "{{OutfitMode}}",
+      "Value": "{{season}}",
       "When": {
-        "query: '{{OutfitMode}}' <> 'seasonal'": true
+        "SeasonalOutfitsSetting": "auto",
+        "HasMod": "Poltergeister.SeasonalCuteCharacters"
       }
     },
     {
-      "Name": "Festival",
-      "Value": "{{Lowercase:{{DayEvent}}}}"
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "false"
+    },
+    {
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "true",
+      "When": {
+        "ExtraFestivalOutfitSetting": "enabled"
+      }
+    },
+    {
+      "Name": "ExtraFestivalOutfitEnabled",
+      "Value": "true",
+      "When": {
+        "ExtraFestivalOutfitSetting": "auto",
+        "HasMod": "Poltergeister.SeasonalCuteCharacters"
+      }
     }
   ],
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "assets/character/character.json",
+      "FromFile": "data/body.json",
       "When": {
-        "Enabled": true
+        "EnabledSetting": true
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/outfit.json",
+      "When": {
+        "EnabledSetting": true
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/outfit_festival.json",
+      "When": {
+        "EnabledSetting": true,
+        "ExtraFestivalOutfitEnabled": true
       }
     }
   ]
