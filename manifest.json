@@ -1,7 +1,7 @@
 {
   "Name": "Alex Mus-tacular",
   "Author": "Molenfeuer",
-  "Version": "5.0.0",
+  "Version": "5.0.1",
   "Description": "Make Alex appearance match his workout",
   "UniqueID": "Molenfeuer.AlexMustacular",
   "UpdateKeys": [ "Nexus:9565" ],
