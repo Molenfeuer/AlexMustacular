@@ -20,6 +20,15 @@
     },
     {
       "Action": "EditImage",
+      "Target": "Characters/Alex_FlowerDance",
+      "FromFile": "assets/character/normal_spring.png",
+      "FromArea": { "X": 0, "Y": 352, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 352, "Width": 64, "Height": 32 },
+      "PatchMode": "Overlay",
+      "LogName": "Edit Alex's basic flower dance outfit"
+    },
+    {
+      "Action": "EditImage",
       "Target": "Characters/Alex_Luau",
       "FromFile": "assets/character/festival_luau.png",
       "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },

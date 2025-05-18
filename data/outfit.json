@@ -22,8 +22,8 @@
       "Action": "EditImage",
       "Target": "Characters/Alex_EggF, Characters/Alex_FlowerDance, Characters/Alex_Luau, Characters/Alex_Jellies, Characters/Alex_Fair, Characters/Alex_SpiritsEve, Characters/Alex_Winter_IceF, Characters/Alex_Winter_WinterStar",
       "FromFile": "assets/character/normal_{{OutfitType}}.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
-      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+      "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 416 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 416 },
       "PatchMode": "Overlay",
       "When": {
         "ExtraFestivalOutfitEnabled": false
