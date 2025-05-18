@@ -22,33 +22,33 @@
           "Id": "{{ModId}}_AlexSpring",
           "Condition": "SEASON spring",
           "Sprite": "Characters/Alex_Spring",
-          "Precedence": -120
+          "Precedence": -115
         },
         "{{ModId}}_AlexSummer": {
           "Id": "{{ModId}}_AlexSummer",
           "Condition": "SEASON Summer",
           "Sprite": "Characters/Alex_Summer",
-          "Precedence": -120
+          "Precedence": -115
         },
         "{{ModId}}_AlexFall": {
           "Id": "{{ModId}}_AlexFall",
           "Condition": "SEASON Fall",
           "Sprite": "Characters/Alex_Fall",
-          "Precedence": -120
+          "Precedence": -115
         },
         "{{ModId}}_AlexWinterIndoor": {
           "Id": "{{ModId}}_AlexWinterIndoor",
           "Condition": "SEASON Winter",
           "Sprite": "Characters/Alex_Winter_Indoor",
-          "Outdoors": "true",
-          "Precedence": -120
+          "Outdoors": false,
+          "Precedence": -115
         },
         "{{ModId}}_AlexWinterOutdoor": {
           "Id": "{{ModId}}_AlexWinterOutdoor",
           "Condition": "SEASON Winter",
           "Sprite": "Characters/Alex_Winter_Outdoor",
-          "Indoors": "true",
-          "Precedence": -120
+          "Indoors": false,
+          "Precedence": -115
         },
         "{{ModId}}_AlexBeach": {
           "Id": "{{ModId}}_AlexBeach",
@@ -60,49 +60,49 @@
           "Id": "{{ModId}}_AlexEggFest",
           "Condition": "IS_EVENT festival_spring13",
           "Sprite": "Characters/Alex_EggF",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexFlowerDance": {
           "Id": "{{ModId}}_AlexFlowerDance",
           "Condition": "IS_EVENT festival_spring24",
           "Sprite": "Characters/Alex_FlowerDance",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexLuau": {
           "Id": "{{ModId}}_AlexLuau",
           "Condition": "IS_EVENT festival_summer11",
           "Sprite": "Characters/Alex_Luau",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexJellies": {
           "Id": "{{ModId}}_AlexJellies",
           "Condition": "IS_EVENT festival_summer28",
           "Sprite": "Characters/Alex_Jellies",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexFair": {
           "Id": "{{ModId}}_AlexFair",
           "Condition": "IS_EVENT festival_fall16",
           "Sprite": "Characters/Alex_Fair",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexSpirit": {
           "Id": "{{ModId}}_AlexSpirit",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/Alex_SpiritsEve",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexIceFestival": {
           "Id": "{{ModId}}_AlexIceFestival",
           "Condition": "IS_EVENT festival_winter8",
           "Sprite": "Characters/Alex_Winter_IceF",
-          "Precedence": -1000
+          "Precedence": -999
         },
         "{{ModId}}_AlexWinterStar": {
           "Id": "{{ModId}}_AlexWinterStar",
           "Condition": "IS_EVENT festival_winter25",
           "Sprite": "Characters/Alex_Winter_WinterStar",
-          "Precedence": -1000
+          "Precedence": -999
         }
       },
       "LogName": "Define Alex's body"
