@@ -6,7 +6,7 @@
       "Default": true
     },
     "SeasonalOutfitsSetting": {
-      "AllowValues": "disabled, enabled, auto",
+      "AllowValues": "disabled, enabled, auto, spring, summer, fall, winter",
       "Default": "auto",
       "Section": "appearance"
     },
@@ -20,6 +20,27 @@
     {
       "Name": "OutfitType",
       "Value": "fall"
+    },
+    {
+      "Name": "OutfitType",
+      "Value": "spring",
+      "When": {
+        "SeasonalOutfitsSetting": "spring"
+      }
+    },
+    {
+      "Name": "OutfitType",
+      "Value": "summer",
+      "When": {
+        "SeasonalOutfitsSetting": "summer"
+      }
+    },
+    {
+      "Name": "OutfitType",
+      "Value": "winter",
+      "When": {
+        "SeasonalOutfitsSetting": "winter"
+      }
     },
     {
       "Name": "OutfitType",
