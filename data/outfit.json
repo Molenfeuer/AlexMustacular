@@ -16,6 +16,9 @@
       "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 352 },
       "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 352 },
       "PatchMode": "Overlay",
+      "When": {
+        "OutfitType": "winter"
+      },
       "LogName": "Edit Alex's winter outdoor outfit"
     },
     {
