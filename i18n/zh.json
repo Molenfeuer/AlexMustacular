@@ -1,0 +1,19 @@
+{
+  "config.section.appearance.name": "外观",
+  "config.EnabledSetting.name": "启用",
+  "config.EnabledSetting.description": "选择是否启用健美的阿历克斯外观",
+  "config.SeasonalOutfitsSetting.name": "季节性服装",
+  "config.SeasonalOutfitsSetting.description": "允许: 根据季节调整阿历克斯的外观。\n\n自动 (默认): 仅会在启用后生效 \n仅在安装了Poltergeister的季节服装模组时生效，否则将保持禁用状态。\n\n禁用:仅展示原版阿历克斯的外观。",
+  "config.SeasonalOutfitsSetting.values.disabled": "禁用",
+  "config.SeasonalOutfitsSetting.values.enabled": "允许",
+  "config.SeasonalOutfitsSetting.values.auto": "自动",
+  "config.SeasonalOutfitsSetting.values.spring": "春",
+  "config.SeasonalOutfitsSetting.values.summer": "夏",
+  "config.SeasonalOutfitsSetting.values.fall": "秋 (原版)",
+  "config.SeasonalOutfitsSetting.values.winter": "冬",
+  "config.ExtraFestivalOutfitSetting.name": "更多季节性服装",
+  "config.ExtraFestivalOutfitSetting.description": "允许: 包括额外的季节性服装 i.e. 万圣节服装\n\n自动 (默认):仅会在启用后生效 \n仅在安装了Poltergeister的季节服装模组时生效，否则将保持禁用状态。\n\n禁用: 禁用次功能",
+  "config.ExtraFestivalOutfitSetting.values.disabled": "禁用",
+  "config.ExtraFestivalOutfitSetting.values.enabled": "允许",
+  "config.ExtraFestivalOutfitSetting.values.auto": "自动"
+}
